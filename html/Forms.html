@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form method="post" action="index.html">
+        <label for="email">Email/Username</label> <br>
+        <!-- br: break : breaking the line to start to new line 
+        placeholder: Your Email is bland in Email/Username-->
+        <input id="email" type="text" name="username" placeholder="Your Email"><br><br>
+        <label for="pass">Password</label><br>
+        <input type="password" name="password" id="pass"><br><br>
+        <input type="checkbox" name="remember_me" value="remember">
+        <label for="remember">Remember me</label><br><br>
+        <label for="favorite_color">Favorite color</label><br>
+        <select id="favorite_color" name="favorite_color">
+            <option>Choose Color</option>
+            <option value="red">Red</option>
+            <option value="purple">Purle</option>
+            <option value="blue">Blue</option>
+        </select><br><br>
+        <input type="submit" value="Log in">
+
+
+    </form>
+</body>
+
+</html>
